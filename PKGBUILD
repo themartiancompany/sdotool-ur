@@ -7,7 +7,7 @@ _offline="false"
 _git="false"
 pkgname=sdotool
 pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
-_commit="1190f131fe881911299aa1cb05b80c51cc527da9"
+_commit="b33cae899ca49a1f55473aa31ed79938028eae35"
 pkgrel=1
 _pkgdesc=(
   "Command-line SurfaceFlinger automation tool"

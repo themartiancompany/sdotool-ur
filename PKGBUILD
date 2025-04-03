@@ -45,6 +45,7 @@ fi
 if [[ ! -v "_offline" ]]; then
   _offline="false"
 fi
+_py="python"
 pkgname=sdotool
 pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
 _commit="b33cae899ca49a1f55473aa31ed79938028eae35"
@@ -109,10 +110,10 @@ fi
 _evmfs_network="100"
 _evmfs_address="0x69470b18f8b8b5f92b48f6199dcb147b4be96571"
 _evmfs_ns="0x87003Bd6C074C713783df04f36517451fF34CBEf"
-_archive_sum='95a3ed2853229aaad4c57f83898da42694a7eb3f885c8fe9d55e9a20f1a561ce'
+_archive_sum="72b5fd922af02763d19e4db1b0acec31e83a4c4f1632630f4287fecc590faf4b"
 _evmfs_archive_uri="evmfs://${_evmfs_network}/${_evmfs_address}/${_evmfs_ns}/${_archive_sum}"
 _evmfs_archive_src="${_tarname}.zip::${_evmfs_archive_uri}"
-_archive_sig_sum="0a8622b13f17c827d286309b2ce1d5937f7b1d7b64e3e0b8d667ce800395a24b"
+_archive_sig_sum="50fd9afa8e7afe4eb277d5b18a865bdb9b46abc47831489c2e18afd881fbb2e1"
 _archive_sig_uri="evmfs://${_evmfs_network}/${_evmfs_address}/${_evmfs_ns}/${_archive_sig_sum}"
 _archive_sig_src="${_tarname}.zip.sig::${_archive_sig_uri}"
 if [[ "${_evmfs}" == "true" ]]; then
